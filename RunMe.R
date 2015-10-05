@@ -8,10 +8,10 @@ require(foreach)
 require(doMC)
 require(ROCR)
 
-setwd('~/Projects/Recruit-Coupon-Purchase/')
-source('github-code/clean.R') # 340 seconds
-source('github-code/functions.R')
-source('github-code/featurize.R') # TAKES A LOT OF TIME AND CONTAINS PARALLEL CODE!
-source('github-code/model_xgboost.R')
+setwd('[enter the path where you downloaded raw data]')
+source('code/clean.R') # 340 seconds
+source('code/functions.R')
+source('code/featurize.R') # TAKES A LOT OF TIME AND CONTAINS PARALLEL CODE!
+source('code/model_xgboost.R')
 
 # for BPR Matrix Factorization using MyMediaLite library
