@@ -12,9 +12,10 @@ This was executed and tested on r3.8xlarge ami on AWS. Execution requires R 3.2.
 To run do the following:
 
 1. [Download the data](https://www.kaggle.com/c/coupon-purchase-prediction/data)
-2. Install packages as required in RunMe.R
-3. Modify paths and run RunMe.R
-4. A submission folder is then generated containing the submission.
+2. Download the repo in the same folder.
+3. Install packages as required in RunMe.R
+4. Modify paths and run RunMe.R
+5. A submission folder is then generated containing the submission.
 
 
 
