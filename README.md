@@ -17,5 +17,5 @@ To run do the following:
 4. Modify paths and run RunMe.R
 5. A submission folder is then generated containing the submission.
 
-
+Details about the implementation can be read in this blog post: http://datascience.blog.uhuru.co.jp/machine-learning/predicting-coupon-purchases-on-ponpare/
 
