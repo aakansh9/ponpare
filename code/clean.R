@@ -71,7 +71,7 @@ coupon_list_test$valid_from <- as.POSIXct(coupon_list_test$valid_from)
 coupon_list_test$valid_end <- as.POSIXct(coupon_list_test$valid_end)
 
 # ... large area name ...
-large_area_jp <- union(levels(coupon_list_train$large_area_name), levels(coupon_list_train$large_area_name))
+large_area_jp <- union(levels(coupon_list_train$large_area_name), levels(coupon_list_test$large_area_name))
 large_area_en <- c('chugoku', 'kyushu_okinawa', 'hokushinetsu',
                    'hokkaido', 'shikoku', 'tohoku', 'tokai',
                    'kanto', 'kansai')
