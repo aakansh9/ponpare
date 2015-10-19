@@ -247,9 +247,6 @@ which(is.na(weblog$purchase_date[which(is.na(weblog$view_date))])) #NONE
 weblog$activity_date <- weblog$view_date
 weblog$activity_date[which(is.na(weblog$activity_date))] <- weblog$purchase_date[which(is.na(weblog$view_date))]
 
-# ... page_serial ...
-#weblog$page_serial[which(is.na(weblog$page_serial))] <- 0
-
 # ... purchase_id ...
 tmp <- count(weblog$purchase_id)[which(count(weblog$purchase_id)[,2] > 1), 1] #purchase id's which occur more than 1 times
 tmp <- as.character(tmp)[-length(tmp)] # 6647 purchase id's
