@@ -9,7 +9,7 @@ This repo contains code for the [Recruit Ponpare Coupon Prediction Challenge](ht
 
 This was executed and tested on r3.8xlarge ami on AWS. Execution requires R 3.2.2 along with the package xgboost and others as mentioned in RunME.R.
 
-To run do the following:
+**To run do the following:**
 
 1. [Download the data](https://www.kaggle.com/c/coupon-purchase-prediction/data)
 2. Download the repo at the same location.
@@ -19,7 +19,7 @@ To run do the following:
 6. A submission folder is then generated containing the submissions.
 
 
-NOTE on using MyMediaLite for Matrix Factorization:
+**NOTE on using MyMediaLite for Matrix Factorization:**
 
 The binaries of the required version of MyMediaLite are already cloned inside the code folder in this repo. Just fulfill the requirements for running MyMediaLite:
  - Mono 2.8.x or another recent .NET runtime (Mono 2.10.x recommended)
