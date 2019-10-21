@@ -1,4 +1,4 @@
-axa_ponpare
+ponpare
 ===============================
 *ML compeitition at [Kaggle](https://www.kaggle.com/c/coupon-purchase-prediction/overview)*
 
